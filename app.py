@@ -10,6 +10,8 @@ import sys
 import fire
 import questionary
 from pathlib import Path
+import csv
+
 
 from qualifier.utils.fileio import load_csv
 
@@ -111,7 +113,24 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+def save_csv(csvpath, data ):
+    with open(csvpath, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',')
+        csvwriter.writerows(data)
 
+def save_qualifying_loans(qualifying_loans):
+
+#Saves the qualifying loans to a CSV file.
+
+# When not qualifying loans, user should be notified and exit program
+    if not qualifying_loans:
+        sys.exit("Sorry, at the time you do not qualify for a loan, try again in 30 days or more")
+    else:
+        csv_response = questionary.confirm("Do you want to save qualifying loans as a csv?").ask()
+# In order to use the loan qualifyier CLI, the results should be saved as a csv when prompted to
+
+    if csv_response:
+        save_csv("./data/qualifying_loans.csv",qualifying_loans)
 def run():
     """The main function for running the script."""
 
