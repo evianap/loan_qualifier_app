@@ -41,11 +41,11 @@
 
 <p>This project is designed to ask a few qualifying questions to a prospective client to determine eligibility for a loan based on a set of parameters and today's rates pulled from a CSV. Then the user will be asked if (s)he wants to save the loans that (s)he's eligible for in a new csv file:<p/>
 
-<p><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="loan_list_screenshot" width="450" height="650"><p/>
+<p align="center"><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="loan_list_screenshot" width="450" height="650"><p/>
 
 <p>Code was also improved to incorporate an error message and closing program whenever an invalid number was provided for any of the variables that are requested from the user. Please note that if an string is provided, program will still crash. All collaborations for improvement are welcome.<p/>
 
-<p><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/error_screenshot.png" alt="screenshot_error_" width="450" height="250"><p/>
+<p align="center"><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/error_screenshot.png" alt="screenshot_error_" width="450" height="200"><p/>
 
 
 ### Built With
