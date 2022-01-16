@@ -6,6 +6,7 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+import string
 import sys
 import fire
 import questionary
@@ -49,16 +50,39 @@ def get_applicant_info():
     """
 
     credit_score = questionary.text("What's your credit score?").ask()
+  
+
+    
     debt = questionary.text("What's your current amount of monthly debt?").ask()
     income = questionary.text("What's your total monthly income?").ask()
     loan_amount = questionary.text("What's your desired loan amount?").ask()
     home_value = questionary.text("What's your home value?").ask()
 
     credit_score = int(credit_score)
+
+    # adding conditions to avoid invalid numbers from client. If any of the values is invalid, the program will exist and indicate what a valid input is
+    if credit_score < 250:
+        sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
+    elif credit_score > 850:
+        sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
+
+    
     debt = float(debt)
+    if  debt < 0:
+        sys.exit(f'Debt has to be a non-negative number, please enter a valid number next time')
+
+
     income = float(income)
+    if  income < 0:
+        sys.exit(f'Income has to be a non-negative number, please enter a valid number next time')
+
     loan_amount = float(loan_amount)
+    if  loan_amount <= 0:
+        sys.exit(f'Loan amount has to be greater than zero, please enter a valid number next time')
+
     home_value = float(home_value)
+    if  home_value < 0:
+        sys.exit(f'Debt has to be a non-negative number, please enter a valid number next time')
 
     return credit_score, debt, income, loan_amount, home_value
 
