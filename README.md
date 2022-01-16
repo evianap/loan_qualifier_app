@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://github.com/evianap/loan_qualifier_app_/blob/main/readme_images/app_screenshot.png_" alt="Logo" width="240" height="120">
+    <img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/app_screenshot.png" alt="Logo" width="240" height="120">
   </a>
 
   <h3 align="center">loan_qualifier_app</h3>
