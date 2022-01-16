@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/app_screenshot.png" alt="Logo" width="600" height="300">
+    <img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/app_screenshot.png" alt="Logo" width="700" height="300">
   </a>
 
   <h3 align="center">loan_qualifier_app</h3>
@@ -40,20 +40,27 @@
 ## About The Project
 
 This project is designed to ask a few qualifying questions to a prospective client to determine eligibility for a loan based on a set of parameters and today's rates pulled from a CSV. Then the user will be asked if (s)he wants to save the loans that (s)he's eligible for in a new csv file:
-
+<img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="Logo" width="300" height="500">
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
 
 * [Python](https://www.python.org/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Prerequisites
 
 <!-- This is an example of how to list things you need to use the software and how to install them. -->
-* Python
-* Questionary
-* Fire
-* csv
+A variety of libraries were used and are needed for this program. They can be added using the below commands in terminal:
+
+``` 
+import csv
+import sys
+import fire
+import questionary
+from pathlib import Path 
+```
+[For more information on libraries click on this link]( https://docs.python.org/3/library/csv.html?highlight=csv#module-csv ) 
 
 
 
@@ -62,7 +69,7 @@ This project is designed to ask a few qualifying questions to a prospective clie
 
 Enrique Viana - [@evianap][linkedin-url] - j.enrique.viana@gmail.com
 
-Project Link: [https://github.com/evianap/microcredit_loans_valuation](https://github.com/evianap/microcredit_loans_valuation)
+Project Link: [https://github.com/evianap/loan_qualifier_app](https://github.com/evianap/microcredit_loans_valuation)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
