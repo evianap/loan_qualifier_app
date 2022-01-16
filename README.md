@@ -40,7 +40,14 @@
 ## About The Project
 
 This project is designed to ask a few qualifying questions to a prospective client to determine eligibility for a loan based on a set of parameters and today's rates pulled from a CSV. Then the user will be asked if (s)he wants to save the loans that (s)he's eligible for in a new csv file:
-<img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="Logo" width="300" height="500">
+
+<img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="loan_list_screenshot" width="450" height="650">
+
+Code was also improved to incorporate an error message and closing program whenever an invalid number was provided for any of the variables that are requested from the user. Please note that if an string is provided, program will still crash. All collaborations for improvement are welcome.
+
+<img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/error_screenshot.png" alt="screenshot_error_" width="450" height="250">
+
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
@@ -76,7 +83,7 @@ Project Link: [https://github.com/evianap/loan_qualifier_app](https://github.com
 
 * [Kevin Lee](https://github.com/kevinclee26/)
 * [Hitarth Smart](https://github.com/smarthitarth)
-* [Sajal Sharma](https://shields.io)
+* [Sajal Sharma](https://github.com/sajal-sharma)
 * [FastCapital360](https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg)
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -86,4 +93,3 @@ Project Link: [https://github.com/evianap/loan_qualifier_app](https://github.com
 [license-url]:  -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/enriqueviana/
-[product-url]: https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg
