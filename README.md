@@ -5,15 +5,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://github.com/evianap/microcredit_loans_valuation/blob/main/microloans/images/Microloans.jpeg" alt="Logo" width="240" height="120">
+    <img src="https://github.com/evianap/loan_qualifier_app_/blob/main/readme_images/app_screenshot.png_" alt="Logo" width="240" height="120">
   </a>
 
-  <h3 align="center">microcredit_loans_valuation</h3>
+  <h3 align="center">loan_qualifier_app</h3>
 
   <p align="center">
-    Automating Valuations and Purchasing Decisions
+    Automating Loan Eligibility Evaluation
     <br />
-    <a href="https://github.com/evianap/microcredit_loans_valuation"><strong>Go to documents »</strong></a>
+    <a href="https://github.com/evianap/loan_qualifier_app"><strong>Go to documents »</strong></a>
     <br />
   </p>
 </p>
@@ -51,6 +51,11 @@ This project is designed to ask a few qualifying questions to a prospective clie
 
 <!-- This is an example of how to list things you need to use the software and how to install them. -->
 * Python
+* Questionary
+* Fire
+* csv
+
+
 
 <!-- CONTACT -->
 ## Contact
@@ -64,7 +69,7 @@ Project Link: [https://github.com/evianap/microcredit_loans_valuation](https://g
 
 * [Kevin Lee](https://github.com/kevinclee26/)
 * [Hitarth Smart](https://github.com/smarthitarth)
-* [Img Shields](https://shields.io)
+* [Sajal Sharma](https://shields.io)
 * [FastCapital360](https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg)
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -74,5 +79,4 @@ Project Link: [https://github.com/evianap/microcredit_loans_valuation](https://g
 [license-url]:  -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/enriqueviana/
-[product-screenshot]: https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg
 [product-url]: https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg
