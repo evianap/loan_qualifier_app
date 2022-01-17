@@ -65,7 +65,6 @@ def get_applicant_info():
         sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
     elif credit_score > 850:
         sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
-
     
     debt = float(debt)
     if  debt < 0:

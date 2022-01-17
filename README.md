@@ -41,11 +41,49 @@
 
 <p>This project is designed to ask a few qualifying questions to a prospective client to determine eligibility for a loan based on a set of parameters and today's rates pulled from a CSV. Then the user will be asked if (s)he wants to save the loans that (s)he's eligible for in a new csv file:<p/>
 
+```
+# When not qualifying loans, user should be notified and exit program
+    if not qualifying_loans:
+        sys.exit("Sorry, at the time you do not qualify for a loan, try again in 30 days or more")
+    else:
+        csv_response = questionary.confirm("Do you want to save qualifying loans as a csv?").ask()
+# In order to use the loan qualifyier CLI, the results should be saved as a csv when prompted to
+
+    if csv_response:
+        save_csv("./data/qualifying_loans.csv",qualifying_loans)
+def run():
+```
 <p align="center"><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/qualifying_loans_csv_screenshot.png" alt="loan_list_screenshot" width="450" height="650"><p/>
 
 <p>Code was also improved to incorporate an error message and closing program whenever an invalid number was provided for any of the variables that are requested from the user. Please note that if an string is provided, program will still crash. All collaborations for improvement are welcome.<p/>
 
-<p align="center"><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/error_screenshot.png" alt="screenshot_error_" width="450" height="200"><p/>
+```
+    # adding conditions to avoid invalid numbers from client. If any of the values is invalid, the program will exist and indicate what a valid input is
+    if credit_score < 250:
+        sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
+    elif credit_score > 850:
+        sys.exit(f'Credit score ranges from 250 to 850, please enter a valid number next time')
+    
+    debt = float(debt)
+    if  debt < 0:
+        sys.exit(f'Debt has to be a non-negative number, please enter a valid number next time')
+
+
+    income = float(income)
+    if  income < 0:
+        sys.exit(f'Income has to be a non-negative number, please enter a valid number next time')
+
+    loan_amount = float(loan_amount)
+    if  loan_amount <= 0:
+        sys.exit(f'Loan amount has to be greater than zero, please enter a valid number next time')
+
+    home_value = float(home_value)
+    if  home_value < 0:
+        sys.exit(f'Debt has to be a non-negative number, please enter a valid number next time')
+```
+
+
+<p align="center"><img src="https://github.com/evianap/loan_qualifier_app/blob/main/readme_images/error_screenshot.png" alt="screenshot_error_" width="550" height="200"><p/>
 
 
 ### Built With
