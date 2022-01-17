@@ -1,0 +1,1016 @@
+   50  git config --global user.name "Enrique"
+   51  git config --global -- replace-all user.name "Enrique"
+   52  git config --global --unset user.name
+   53  git config --global --replace-all user.name "Enrique"
+   54  git config --get-all user.name
+   55  git config --global user.name
+   56  git config --global user.email "j.enrique.viana@gmail.com"
+   57  git config user.email
+   58  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/joseviana-prieto/.zprofile\n
+   59  brew help
+   60  'brew help'
+   61  eval "$(/opt/homebrew/bin/brew shellenv)"
+   62  ls -al `/.ssh\nssh-keygen –t rsa –b 4096 –C "j.enrique.viana@gmail.com"\neval "$(ssh-agent –s)"
+   63  ssh-keygen –t rsa –b 4096 –C "j.enrique.viana@gmail.com"
+   64  eval "$(ssh-agent –s)"
+   65  eval "$(ssh-agent –s)"
+   66  ls ~al ~/.ssh
+   67  ssh-keygen –t rsa –b 4096 –C "j.enrique.viana@gmail.com"
+   68  f
+   69  eval "$(ssh-agent –s)"
+   70  eval "$(ssh-agent –s)"
+   71  ssh-keygen rsa
+   72  ssh-keygen
+   73  ssh-add ~/.ssh/id_rsa
+   74  pbcopy < ~/.ssh/id_rsa.pub
+   75  ssh –T git@github.com
+   76  ssh -Tgit@github.com
+   77  ssh -T git@github.com
+   78  conda --version
+   79  conda update conda
+   80  conda --version
+   81  __conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"\nif [ $? -eq 0 ]; then\n    \eval "$__conda_setup"\nelse\n    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then\n        . "/anaconda3/etc/profile.d/conda.sh"\n        CONDA_CHANGEPS1=false conda activate base\n    else\n        \export PATH="/anaconda3/bin:$PATH"\n    fi\nfi\nunset __conda_setup
+   82  conda --version
+   83  exec $shell
+   84  conda --version
+   85  brew install python3
+   86  python3 --version
+   87  cd Python_Project
+   88  ls
+   89  rm hello
+   90  ls
+   91  conda activate dev
+   92  python --version
+   93  code .
+   94  python hello_python.py
+   95  code .
+   96  conda deactivate
+   97   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60399 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+   98   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60424 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+   99   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60440 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  100   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60449 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  101   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60457 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  102   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60468 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  103   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60482 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  104   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60488 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py 
+  105   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60617 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/Movie_Stars/MovieStars.py 
+  106  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_listing_assets/Unsolved/listing_assets.py
+  107  conda activate dev
+  108  python listing_assets.py
+  109  conda deactivate
+  110  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/Movie_Stars/MSDictionary.py
+  111  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Top_Traders_Dictionary.py
+  112  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Top_Traders_Dictionary.py
+  113  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Top_Traders_Dictionary.py
+  114  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  115  conda activate dev
+  116  ls
+  117  python hello_variable_world.py
+  118  python hello_variable_world.py
+  119  python hello_variable_world.py
+  120  python hello_variable_world.py
+  121  python hello_variable_world.py
+  122  conda deactivate
+  123  conda activate dev
+  124  python hello_variable_world.py
+  125  python hello_variable_world.py
+  126  conda deactivate
+  127  conda activate dev
+  128  python hello_variable_world.py
+  129  python hello_variable_world.py
+  130  conda deactivate
+  131  python hello_variable_world.py
+  132  conda activate dev
+  133  ls
+  134  python hello_variable_world.py
+  135  pythin moviestars.py
+  136  python moviestars.py
+  137  ls
+  138  cd movie_stars
+  139  ls
+  140  python moviestars.py
+  141  python moviestars.py
+  142  python moviestars.py
+  143  python moviestars.py
+  144  python moviestars.py
+  145  python moviestars.py
+  146  conda deactivat
+  147  conda deactivate
+  148  cd ..
+  149  ls
+  150  cd appending
+  151  ls
+  152  conda activate dev
+  153  python tech_stocks.py
+  154  python tech_stocks.py
+  155  python tech_stocks.py
+  156  python tech_stocks.py
+  157  python tech_stocks.py
+  158  python tech_stocks.py
+  159  conda deactivate
+  160   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60928 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py 
+  161   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60896 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py 
+  162   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60907 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py 
+  163   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 60921 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py 
+  164  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  165  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  166  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  167  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  168  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  169  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  170  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  171  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  172  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  173  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  174  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/python-project/03_the_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  175   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61252 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  176   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61265 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  177   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61270 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  178   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61282 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  179   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61294 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  180   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61303 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  181   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61310 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  182   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61319 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  183   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61338 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  184   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61353 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  185   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61361 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py 
+  186   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61504 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py 
+  187   cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 61510 -- /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py 
+  188  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  189  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  190  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  191  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  192  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  193  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  194  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  195  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  196  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  197  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  198  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/conditional_statement.py
+  199  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  200  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  201  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  202  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  203  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  204  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  205  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  206  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  207  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/01_Conditional_Statement/Unsolved/complexcondi.py
+  208  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  209  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  210  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  211  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  212  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  213  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  214  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  215  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  216  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  217  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  218  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  219  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  220  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/Conditional_Stock.py
+  221  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  222  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  223  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  224  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  225  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  226  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  227  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  228  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  229  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Starter_Code/loan_analyzer.py
+  230   /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 63293 -- /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py 
+  231   cd /Users/joseviana-prieto/Documents/Bootcamp/challenges ; /usr/bin/env /opt/homebrew/bin/python3 /Users/joseviana-prieto/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/lib/python/debugpy/launcher 63304 -- /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py 
+  232  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  233  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  234  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  235  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  236  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  237  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  238  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  239  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  240  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  241  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  242  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  243  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  244  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  245  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  246  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  247  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  248  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  249  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  250  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  251  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  252  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  253  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  254  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  255  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  256  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  257  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  258  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  259  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  260  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  261  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  262  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  263  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  264  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  265  clear
+  266  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  267  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  268  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  269  opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  270  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  271  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  272  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  273  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  274  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  275  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  276  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  277  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  278  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  279  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  280  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  281  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  282  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  283  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  284  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  285  /opt/homebrew/bin/python3 /Users/joseviana-prieto/Documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  286  conda --version
+  287  conda update conda
+  288  conda create -n dev python=3.7 anaconda
+  289  conda init zsh
+  290  conda activate dev
+  291  conda init zsh
+  292  conda deactivate
+  293  echo # {shell}
+  294  python -m ipykernel install --user --name dev
+  295  conda install -c conda-forge nodejs
+  296  cd desktop
+  297  mkdir test
+  298  touch sample.txt
+  299  cd test
+  300  ls
+  301  cd ..
+  302  mv sample.txt test
+  303  cd test
+  304  ls
+  305  mv sample.txt example.txt
+  306  ls
+  307  mv example.txt example.xlsx
+  308  ls
+  309  rm example.xlsx
+  310  ls
+  311  cd ..
+  312  ls
+  313  rm test
+  314  rmdir test
+  315  ls
+  316  cd ..
+  317  ls
+  318  mkdir Git
+  319  ls
+  320  cd Git
+  321  git clone git@github.com:evianap/Bootcamp.git
+  322  open
+  323  ~/Git open
+  324  ~/Git open .
+  325  chmod +x open.
+  326  chmod +x Git
+  327  ls
+  328  cd bootcamp
+  329  touch homework1.txt
+  330  ls
+  331  git add .
+  332  git commit -m "first try"
+  333  git push origin main
+  334  git checkout -b new_branch
+  335  git add
+  336  git add .
+  337  git commit -m "first change"
+  338  git oush origin new_branch
+  339  git push origin new_branch
+  340  git checkout main
+  341  git pull
+  342  conda activate dev
+  343  jupyter lab
+  344  conda deactivate
+  345  cd ..
+  346  cd ..
+  347  conda activate dev
+  348  jupyter lab
+  349  conda deactivate
+  350  ls ~al ~/.ssh
+  351  ls -al
+  352  ls -al ~/.ssh
+  353  ls -al ~/.ssh
+  354  pbcopy < ~/.ssh/id_rsa.pub
+  355  ssh -T git@gitlab.example.com
+  356  ssh -T gitgitlab.com/j.enrique.viana
+  357  ssh -T git@gitlab.com/j.enrique.viana
+  358  ssh -T git@gitlab.com/j.enrique.viana
+  359  ssh -T git@^[[200~gitlab.com/j.enrique.viana~
+  360  ssh -T git@gitlab.com/j.enrique.viana
+  361  ssh -T git@gitlab.com
+  362  conda init zsh
+  363  conda init bash
+  364  conda activate dev
+  365  conda deactivate
+  366  pwd
+  367  ls
+  368  cd downloads
+  369  pwd
+  370  ls
+  371  cd ..
+  372  cd documents
+  373  mkdir Fintech-Workspace
+  374  ls
+  375  cd ~
+  376  cd documents
+  377  cd fintech-workspace
+  378  ls
+  379  ls
+  380  rmdir Python Project
+  381  rmdir Python Project
+  382  cd Python Project
+  383  ls
+  384  cd python
+  385  conda activate dev
+  386  code .
+  387  python hello_python.py
+  388  ls
+  389  cd Python_project
+  390  ls
+  391  python Hello_python.py
+  392  rm hello
+  393  conda deactivate
+  394  conda activate dev
+  395  code .
+  396  conda deactivate
+  397  ls
+  398  rm stock_example
+  399  rm stock_example2
+  400  ls
+  401  conda activate dev
+  402  ls
+  403  python stock_example.py
+  404  conda deactivate
+  405  conda activate dev
+  406  code .
+  407  python stock_example.py
+  408  conda deactivate
+  409  cd..
+  410  cd ..
+  411  cd ..
+  412  cd ..
+  413  ls
+  414  cd downloads
+  415  ls
+  416  mv ~/downloads/class_1_activities ~/documents/fintech_workspace/Python_Project/class_1_activities
+  417  mv ~/downloads/class_1_activities ~/documents/fintech_workspace/Python_Project/
+  418  cd ..
+  419  cd documents
+  420  cd fintech_workspace
+  421  ls
+  422  cd fintech-workspace
+  423  ls
+  424  mv ~/downloads/class_1_activities ~/documents/fintech-workspace/Python_Project/
+  425  ls
+  426  mv ~/downloads/01_Hello_Variable_World ~/documents/fintech-workspace/Python_Project/
+  427  ls
+  428  cd Python_Project
+  429  ls
+  430  cd 01_Hello_Variable_World
+  431  ls
+  432  cd unsolved
+  433  ls
+  434  code .
+  435  conda activate dev
+  436  ls
+  437  python hello_variable_world.py
+  438  conda deactivate
+  439  conda activate
+  440  codna avtivate dev
+  441  conda activate dev
+  442  python hello_variable_world.py
+  443  conda deactivate
+  444  ls
+  445  cd ..
+  446  cd ..
+  447  cd ~
+  448  cd downloads
+  449  ls
+  450  mv ~/downloads/02_listing_assets ~/documents/fintech-workspace/Python_Project/
+  451  cd ~
+  452  cd documents/fintech-workspace
+  453  ls
+  454  cd Python_Project
+  455  ls
+  456  02_listing_assets
+  457  cd 02_listing_assets
+  458  ls
+  459  open unsolved
+  460  cd unsolved
+  461  open listing_assets.py
+  462  code .
+  463  conda activate dev
+  464  python listing_assets.py
+  465  python listing_assets.py
+  466  conda deactivate
+  467  mv ~/downloads/the_401k_Shuffle_files ~/documents/fintech-workspace/python-project
+  468  cd ~
+  469  cd downloads
+  470  ls
+  471  mv ~/downloads/03_the_401k_Shuffle ~/documents/fintech-workspace/python-project
+  472  cd ~/documents/fintech-workspace/python-project
+  473  ls
+  474  mv ~/downloads/03_the_401k_Shuffle ~/documents/fintech-workspace/python-project/
+  475  ls
+  476  cd 03_the_401k_shuffle
+  477  ls
+  478  cd unsolved
+  479  ls
+  480  code .
+  481  mv ~/downloads/01_conditional_statemtnt ~/documents/fintech-workpsace/Python_prject/
+  482  cd ..
+  483  cd ..
+  484  cd ..
+  485  cd Python_project
+  486  ls
+  487  mv ~/downloads/01_conditional_statemtnts ~/documents/fintech-workpsace/Python_project/
+  488  mv ~/downloads/01_conditional_statemtnt ~/documents/fintech-workpsace/Python_project/
+  489  mv ~/downloads/01_conditional_statemetnt ~/documents/fintech-workpsace/Python_project/
+  490  mv ~/downloads/01_conditional_statement ~/documents/fintech-workpsace/Python_project/
+  491  mv ~/downloads/01_Conditional_Statement ~/documents/fintech-workpsace/Python_project/
+  492  mv ~/downloads/01_Conditional_Statement/ ~/documents/fintech-workpsace/Python_project/
+  493  mv ~/downloads/01_Conditional_Statement/ ~/documents/fintech-workpsace/Python_project/
+  494  cd~
+  495  cd ~
+  496  ls
+  497  cd downloads
+  498  ls
+  499  mv ~/downloads/01_Conditional_Statement/ ~/documents/fintech-workpsace/Python_project/
+  500  cd documents
+  501  cd ~/documents
+  502  cd fintech-workspece
+  503  cd fintech-workspace
+  504  cd Python_Project
+  505  cd 01_conditional_statement
+  506  cd unsolved
+  507  code .
+  508  cd ~
+  509  cd documents
+  510  cd fintech-workspace
+  511  cd Python_project
+  512  cd class_1_activities
+  513  ls
+  514  cd 01_ins_variables
+  515  ls
+  516  cd unsolved
+  517  python variables.py
+  518  conda activate dev
+  519  python variables.py
+  520  conda deactivate
+  521  cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  522  cd ~
+  523  cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  524  /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  525  cd ~/Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  526  cd /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/
+  527  ls
+  528  python /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  529  python /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/01_Ins_Variables/Unsolved/variables.py
+  530  cd ~
+  531  conda activate dev
+  532  /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/03_Ins_Lists/Solved/lists.py
+  533  python /Users/joseviana-prieto/Documents/Fintech-Workspace/Python_Project/class_1_activities/03_Ins_Lists/Solved/lists.py
+  534  python /Users/joseviana-prieto/Downloads/Class_2_Activities/01_Stu_Variables/Solved/variables.py
+  535  clear
+  536  cd documents
+  537  ls
+  538  cd Fintech-Workspace
+  539  conda deactivate
+  540  ls
+  541  cd Python_Project
+  542  ls
+  543  cd class_1_activities
+  544  ls
+  545  cd..
+  546  cd .
+  547  cd ..
+  548  mkdir Activity-1
+  549  touch.hello.md
+  550  touch hello.md
+  551  ls
+  552  touch README.md
+  553  mv hello.md coding.md
+  554  ls
+  555  cd Activity-1
+  556  cd ..
+  557  mkdir Activity-1/terminal
+  558  cd Activity-1
+  559  ls
+  560  cd ..
+  561  cd ..
+  562  mv Python_Project/Activity-1
+  563  rmdir Activity-1
+  564  rm -r activity-1
+  565  ls
+  566  rmdir Python Project
+  567  rm Python-Project
+  568  rmdir Python-Project
+  569  rm -r Python-Project
+  570  ls
+  571  clear
+  572  mk dir
+  573  cd ..
+  574  mkdir
+  575  ls
+  576  mkdir La_Luneria
+  577  ls
+  578  cd La_Luneria
+  579  ls
+  580  cd ~
+  581  ls
+  582  mv ~downloads/transactions-2021-01-01-2022-01-01.csv ~documents/La_Luneria/
+  583  ls
+  584  mv downloads/transactions-2021-01-01-2022-01-01.csv documents/La_Luneria/transactions-2021-01-01-2022-01-01.csv
+  585  cd documents
+  586  ls
+  587  cd La_Luneria
+  588  ls
+  589  mv transactions-2021-01-01-2022-01-01.csv square_transactions-2021-01-01-2022-01-01.csv
+  590  ls
+  591  mv ~downloads/2d670a16-0d6b-4961-946c-96089dd65455.csv ~documents/La_Luneria/Oct_17_to_Nov_16_2021_Kabbage.csv
+  592  cd ..
+  593  cd ..
+  594  ls
+  595  mv Downloads/2d670a16-0d6b-4961-946c-96089dd65455.csv Documents/La_Luneria/101721-111621_Kabbage.csv
+  596  cd documents
+  597  ls
+  598  cd La_Luneria
+  599  ls
+  600  cd ..
+  601  cd ..
+  602  mv downloads/2d670a16-0d6b-4961-946c-96089dd65455.csv documents/La_Luneria/111621-121521_Kabbage.csv
+  603  clear
+  604  cd documents
+  605  ls
+  606  cd class_1_activities
+  607  ls
+  608  cd ..
+  609  cd ..
+  610  cd downloads
+  611  ls
+  612  cd class_1_activities
+  613  ls
+  614  cd 01_Stu_Python_Code_Drills
+  615  ls
+  616  cd unsolved
+  617  ls
+  618  cd 05-dicts-02
+  619  ls
+  620  cd unsolved
+  621  ls
+  622  clear
+  623  cd ~
+  624  ls
+  625  cd documents
+  626  mk dir Bootcamp
+  627  mkdir Bootcamp
+  628  ls
+  629  cd bootcamp
+  630  git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCB-VIRT-FIN-PT-12-2021-U-B.git
+  631  cd ..
+  632  ls
+  633  cd Fintech-Workspace
+  634  ls
+  635  git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCB-VIRT-FIN-PT-12-2021-U-B.git
+  636  cd ..
+  637  ls
+  638  cd Bootcamp
+  639  git clone https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FIN-PT-12-2021-U-B.git
+  640  ls
+  641  cd UCB-VIRT-FIN-PT-12-2021-U-B
+  642  ls
+  643  cd Live-Lesson-Activities
+  644  ls
+  645  cd ..
+  646  cd ..
+  647  git status
+  648  cd UCB-VIRT-FIN-PT-12-2021-U-B
+  649  git status
+  650  git status
+  651  git status
+  652  git status
+  653  git status
+  654  git log
+  655  clear
+  656  git pull
+  657  cd ..
+  658  ls
+  659  mkdir work-here
+  660  ls
+  661  mkdir projects
+  662  ls
+  663  cd projects
+  664  git clone git@github.com:evianap/Finance_Analytics_Tool.git
+  665  git pull
+  666  ls
+  667  cd Finance_Analytics_Tool
+  668  git pull
+  669  cd ..
+  670  ls
+  671  cd ..
+  672  cd ..
+  673  ls
+  674  cd Class_2_Activities\ 2
+  675  ls
+  676  cd 01_
+  677  cd 01_Ins_ATM_Application
+  678  ls
+  679  pip install fire
+  680  clear
+  681  pip install questionnaire
+  682  pip install questionary
+  683  pip uninstall questionnaire
+  684  ls
+  685  conda create -n atm
+  686  conda activate atm
+  687  conda list
+  688  conda deactivate atm
+  689  conda deactivate
+  690  conda remove --name atm
+  691  conda env remove --name atm
+  692  conda create --name atm python=3.7 anaconda
+  693  conda activate atm
+  694  ls
+  695  conda deactivate --name atm
+  696  conda deactivate
+  697  conda activate --name atm
+  698  conda activate -n atm
+  699  conda activate atm
+  700  python version
+  701  version python
+  702  clear
+  703  cd ~
+  704  cd documents
+  705  ls
+  706  cd Bootcamp
+  707  ls
+  708  cd projects
+  709  ls
+  710  mkdir challenges
+  711  cd challenges
+  712  ls
+  713  mvdir ~/documents/starter_Code ~documents/Bootcamp/Challenges
+  714  cd ..
+  715  cd ~
+  716  ls
+  717  mvdir ~documents/starter_code ~documents/bootcamp/challenges
+  718  mv ~/documents/starter_code/ ~/documents/bootcamp/challenges/
+  719  ls
+  720  cd documents
+  721  cd Bootcamp
+  722  ls
+  723  cd challenges
+  724  ls
+  725  open vcode
+  726  launch vs code
+  727  code
+  728  clear
+  729  code
+  730  mkdir microloans
+  731  ls
+  732  mv /loan_analizer.py /microloans/loan_analizer.py
+  733  mv loan_analyzer.py /microloans/loan_analyzer.py
+  734  pwd
+  735  mv /Users/joseviana-prieto/documents/Bootcamp/challenges/loan_analyzer.py /Users/joseviana-prieto/documents/Bootcamp/challenges/microloans/loan_analyzer.py
+  736  conda deactivate
+  737  ls
+  738  cd microloans
+  739  ls
+  740  code loan_analyzer.py
+  741  python loan_analyzer
+  742  python loan_analyzer.py
+  743  python loan_analyzer.py
+  744  open inexpensive_loans.csv
+  745  python loan_analyzer.py
+  746  open inexpensive_loans.csv
+  747  open inexpensive_loans.csv
+  748  rm inexpensive_loans.csv
+  749  ls
+  750  open inexpensive_loans.csv
+  751  python loan_analyzer.py
+  752  open inexpensive_loans.csv
+  753  rm inexpensive_loans.csv
+  754  python loan_analyzer.py
+  755  python loan_analyzer.py
+  756  open inexpensive_loans.csv
+  757  clear
+  758  ls
+  759  rm inexpensive_loans.csv
+  760  ls
+  761  python loan_analyzer.py
+  762  open inexpensive_loans.csv
+  763  mkdir images
+  764  cd images
+  765  mv ~/documents/Microloans.jpeg ~/documents/Bootcamp/challenges/microloans/images/
+  766  ls
+  767  cd..
+  768  cd ..
+  769  ls
+  770  code loan_analyzer
+  771  code
+  772  code
+  773  cd ..
+  774  cd ..
+  775  jupyterlab
+  776  jupyterlabs
+  777  jupyter lab
+  778  clear
+  779  cd challenges
+  780  mkdir Loan_Qualifier_App
+  781  ls
+  782  cd ~/downloads/
+  783  ls
+  784  mv ~/downloads/Starter_Code.zip ~/documents/Bootcamp/challenges/Loan_Qualifier_App/
+  785  cd  ~/documents/Bootcamp/challenges/Loan_Qualifier_App/
+  786  ls
+  787  ls
+  788  mkdir App_Repo
+  789  conda initiate dev
+  790  conda activate dev
+  791  python app.py
+  792  ls
+  793  cd App_Repo
+  794  ls
+  795  cd loan_qualifier_app
+  796  ls
+  797  python app.py
+  798  pip install fire
+  799  conda deactivate
+  800  pip install fire
+  801  pip install questionary
+  802  conda activate dev
+  803  pythin app.py
+  804  python app.py
+  805  pip install questionary
+  806  pythin app.py
+  807  python app.py
+  808  /data/daily_rate_sheet.csv
+  809  ~/documents/Bootcamp/challenges/Loan_Qualifier_App/App_Repo/loan_qualifier_app/data/daily_rate_sheet.csv
+  810  python app.py
+  811  git status
+  812  clear
+  813  python app.py
+  814  ~/documents/Bootcamp/challenges/Loan_Qualifier_App/App_Repo/loan_qualifier_app/data/daily_rate_sheet.csv 
+  815  python app.py
+  816  pwd
+  817  cd data
+  818  pwd
+  819  python app.py
+  820  cd ..
+  821  python app.py
+  822  ls
+  823  python app.py
+  824  python app.py
+  825  python app.py
+  826  python app.py
+  827  python app.py
+  828  python app.py
+  829  python app.py
+  830  python app.py
+  831  python app.py
+  832  clear
+  833  python app.py
+  834  python app.py
+  835  python app.py
+  836  history 50 > terminal_history.txt
+  837  ls
+  838  git add .
+  839  ls
+  840  git status
+  841  ls
+  842  cd ..
+  843  ls
+  844  touch README.md
+  845  git init
+  846  git add README.md
+  847  git commit -m "first commit"
+  848  git remote add origin git@github.com:evianap/loan_qualifier_app.git
+  849  git push origin master
+  850  curl -u 'evianap' https://api.github.com/user/repos -d '{"evianap":"loan_qualifier_app"}'
+  851  ls -al ~/.ssh
+  852  ssh -T git@github.com
+  853  curl -u 'evianap' https://api.github.com/user/repos -d '{"evianap":"loan_qualifier_app"}'
+  854  git commit
+  855  ls
+  856  git add
+  857  git add .
+  858  git commit
+  859  conda activate
+  860  conda deactivate
+  861  conda activate
+  862  conda activate dev
+  863  cd /documents/
+  864  cd documents
+  865  cd boot
+  866  cd Bootcamp
+  867  cd challenges
+  868  ls
+  869  cd Loan_Qualifier_App
+  870  ls
+  871  cd App_Repo
+  872  git init
+  873  touch gitignore
+  874  ls
+  875  git add
+  876   git remote add origin https://github.com/evianap/loan_qualifier_app
+  877  git status
+  878  git add gitignore
+  879  git status
+  880  git commit -m 'initial commit from terminal'
+  881  git push
+  882  git push origin master
+  883  git remote add origin git@github.com:evianap/loan_qualifier_app.git
+  884  git branch -M main
+  885  git push -u origin main
+  886  history 50 > terminal_history.txt
+  887  git status
+  888  git commit -m 'adding terminal history'
+  889  git add
+  890  git add .
+  891  git status
+  892  git commit -m adding 'terminal history'
+  893  git commit -m 'adding terminal history'
+  894  git status
+  895  git push
+  896  git add README.md && git commit -m "added readme" README.md
+  897  git add README.md
+  898  commit -"added readme" README.md
+  899  git commit -"added readme" README.md
+  900  git commit --m"added readme" README.md
+  901  git commit -m --"added readme" README.md
+  902  git clone git@github.com:evianap/loan_qualifier_app.git
+  903  git clone git@github.com:evianap/loan_qualifier_app.git
+  904  git commit status
+  905  git status
+  906  git clone git@github.com:evianap/loan_qualifier_application.git
+  907  ls
+  908  git status
+  909  mv  -v /loan_qualifier_app/* /loan_qualifier_application/
+  910  pwd
+  911  pwd
+  912  mv  -v /Users/joseviana-prieto/documents/Bootcamp/challenges/Loan_Qualifier_App/App_Repo/loan_qualifier_app/* /Users/joseviana-prieto/documents/Bootcamp/challenges/Loan_Qualifier_App/App_Repo /loan_qualifier_application/
+  913  ls
+  914  cd loan_qualifier_application
+  915  ls
+  916  cd ..
+  917  git status
+  918  git add -A   
+  919  git commit -m "adding files to remote repo"
+  920  git status
+  921  git push
+  922  git clone git@github.com:evianap/loan_qualifier_application.git
+  923  clear
+  924  git config --list
+  925  cd ..
+  926  pwd
+  927  ls
+  928  conda deactivate
+  929  ls
+  930  cd documents
+  931  ls
+  932  cd Bootcamp
+  933  ls
+  934  cd chll
+  935  cd challenges
+  936  ls
+  937  cd ..
+  938  cd projects
+  939  ls
+  940  cd challenges
+  941  ls
+  942  cd loan_qualifier_app
+  943  git config --list
+  944  git clone git@github.com:evianap/loan_qualifier_app.git
+  945  cd ..
+  946  ls
+  947  ls
+  948  mkdir loan_qualifier_app
+  949  ls
+  950  cd loan qualifier app
+  951  cd loan_qualifier_app
+  952  git clone git@github.com:evianap/loan_qualifier_app.git
+  953  cd ..
+  954  conda activate dev
+  955  git status
+  956  ls
+  957  cd loan_qualifier_app
+  958  git status
+  959  ls
+  960  cd loan_qualifier_app
+  961  git status
+  962  git commit -m "initial Readme commit"
+  963  git add readme.md
+  964  git status
+  965  git commit -m "initial readme commit"
+  966  git add README.md
+  967  git status
+  968  git commit m- "initial readme commit"
+  969  git commit -m"initial readme commit"
+  970  git status
+  971  git push
+  972  git status
+  973  git status
+  974  git add -a
+  975  git add --all
+  976  git status
+  977  git commit -m"adding starter code"
+  978  git status
+  979  git push
+  980  git status
+  981  ls
+  982  python app.py
+  983  python app.py
+  984  python app.py
+  985  ls
+  986  mkdir readme_images
+  987  git status
+  988  git ad -all
+  989  git add -a
+  990  git add --all
+  991  git status
+  992  git commit -m"adding image gor readme and updated app code"
+  993  git status
+  994  git push
+  995  git status
+  996  pwd
+  997  mv /Users/joseviana-prieto/documents/qualifying_loans_csv_screenshot.png /Users/joseviana-prieto/documents/Bootcamp/projects/challenges/loan_qualifier_app/loan_qualifier_app/readme_images/qualifying_loans_csv_screenshot.png
+  998  ls
+  999  git status
+ 1000  ait add --a
+ 1001  git add --A
+ 1002  git add --all
+ 1003  git status
+ 1004  git commit -m"added csv image for readme"
+ 1005  git push
+ 1006  python app.py
+ 1007  python app.py
+ 1008  python app.py
+ 1009  python app.py
+ 1010  python app.py
+ 1011  python app.py
+ 1012  python app.py
+ 1013  python app.py
+ 1014  python app.py
+ 1015  python app.py
+ 1016  python app.py
+ 1017  python app.py
+ 1018  python app.py
+ 1019  git status
+ 1020  git add --all
+ 1021  git status
+ 1022  git commit -m"adding system exit and error message to invalid inputs"
+ 1023  git push
+ 1024  git status
+ 1025  git add
+ 1026  git add --all
+ 1027  git status
+ 1028  git commit -m"updated readme with images and correct project info"
+ 1029  git push
+ 1030  gti status
+ 1031  git status
+ 1032  git add --all
+ 1033  git status
+ 1034  git commit -m"correct readme logo"
+ 1035  git push
+ 1036  git status
+ 1037  git add -all
+ 1038  git add --all
+ 1039  git commit -m"larger readme logo"
+ 1040  git push
+ 1041  git status
+ 1042  git add --all
+ 1043  git status
+ 1044  git commit -m"added csv image, libraries and other links to readme"
+ 1045  git push
+ 1046  python app.py
+ 1047  git status
+ 1048  git add --all
+ 1049  git status
+ 1050  git commit -m"added error image and aknowledgements link"
+ 1051  git status
+ 1052  git status
+ 1053  git add --all
+ 1054  git commit -m"fixed image and text overlay on readme"
+ 1055  git status
+ 1056  git push
+ 1057  git status
+ 1058  git add --all
+ 1059  git commit -m"centered images in readme"
+ 1060  git push
+ 1061  git status
+ 1062  git add --all
+ 1063  git commit -m"UPDATED README WITH CODE FRAGMENTS"
+ 1064  git push
+ 1065  git status

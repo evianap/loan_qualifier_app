@@ -122,7 +122,6 @@ Project Link: [https://github.com/evianap/loan_qualifier_app](https://github.com
 * [Kevin Lee](https://github.com/kevinclee26/)
 * [Hitarth Smart](https://github.com/smarthitarth)
 * [Sajal Sharma](https://github.com/sajal-sharma)
-* [FastCapital360](https://www.fastcapital360.com/wp-content/uploads/2021/07/Graphic_01-9.jpg)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
